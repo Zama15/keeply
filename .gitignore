@@ -1,0 +1,72 @@
+# Load by Defualt in the project
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Load by me
+# Existing entries
+*.iml
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Gradle
+.gradle/
+**/build/
+
+# IntelliJ IDEA
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# Kotlin Multiplatform specific
+*.ksp
+*.kotlin_module
+*.kotlin_built
+.kotlin/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Xcode-specific (for iOS project)
+iosApp/*.xcodeproj/xcuserdata/
+iosApp/*.xcodeproj/project.xcworkspace/xcuserdata/
+iosApp/*.xcworkspace/xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Kotlin Multiplatform Resources
+**/kotlin-multiplatform-resources/
+
+# Specific to your project structure
+composeApp/build/
+composeApp/src/commonMain/composeResources/
+
+# Firebase (if used)
+app/google-services.json
+
+# Temporary and system files
+*.tmp
+*~
+.DS_Store
